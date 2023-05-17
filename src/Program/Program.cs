@@ -1,4 +1,5 @@
 ﻿using System;
+using TwitterUCU;
 using Library;
 
 namespace Program
@@ -7,6 +8,10 @@ namespace Program
     {
         static void Main(string[] args)
         {
+            var twitter = new TwitterImage();
+            Console.WriteLine(twitter.PublishToTwitter("Vamo a Programar", @"..\..\..\programacion-2-e1551291144973.jpg"));
+
+
             // Crear el contacto dueño
 
             // Crear la lista de contactos
