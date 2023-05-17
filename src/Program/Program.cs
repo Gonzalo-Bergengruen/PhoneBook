@@ -13,7 +13,7 @@ namespace Program
 
             // Agregar contactos a la lista
 
-            // Enviar un correo a algunos contactos
+            // Envia    r un correo a algunos contactos
 
             // Enviar un WhatsApp a algunos contactos
 

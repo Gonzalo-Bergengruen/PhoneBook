@@ -7,7 +7,6 @@ namespace Library
             this.From = from;
             this.To = to;
         }
-
         public string Text { get; set; }
 
         public string From { get; }
