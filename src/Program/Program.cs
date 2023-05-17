@@ -1,5 +1,6 @@
 ﻿using System;
 using TwitterUCU;
+using WhatsAppApiUCU;
 using Library;
 
 namespace Program
@@ -11,6 +12,8 @@ namespace Program
             var twitter = new TwitterImage();
             Console.WriteLine(twitter.PublishToTwitter("Vamo a Programar", @"..\..\..\programacion-2-e1551291144973.jpg"));
 
+            var whatsApp = new WhatsAppApi();
+            whatsApp.Send("+59894409040", "Hey! I'm using WhatsApp");
 
             // Crear el contacto dueño
 
